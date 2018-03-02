@@ -1,0 +1,105 @@
+/*Strzałki*/
+#decrease {
+	height: 0;
+	width: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid black;
+}
+
+#increase {
+	height:0;
+	width: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid black;
+	margin-bottom: 3px;
+}
+
+table tbody .quantity {
+	cursor: pointer;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+}
+
+table{
+	min-width: 100px;
+}
+
+li .name:hover {
+	cursor: pointer;
+	color: green;
+	text-decoration: none;
+	
+}
+
+.name{
+	color: white;
+}
+
+.carousel-inner{
+	min-height: 200px;
+	min-width: 200px;
+}
+
+#item-list{
+	min-width: 100px;
+	max-width: 250px;
+	background-color: #52899F;
+	color: white;
+}
+
+#slider{
+	max-width: 300px;
+	max-height: 300px;
+	display: table;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+ul{
+	padding: 30px;
+}
+
+ul li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	border-bottom: 2px solid white;
+}
+
+ul li:last-child{
+	border-bottom: 0px solid white;
+} 
+
+tr .name{
+	color: black;
+}
+
+.slider-button{
+	width: 30px;
+	height: 30px;
+}
+
+.sub-total{
+	width: 237px;
+}
+
+
+
+
+
+
+
+
+
+
